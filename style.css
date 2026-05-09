@@ -44,7 +44,7 @@ header, section {
     top: 50%;
     left: 60px;
     transform: translateY(-50%);
-    color: #fff;
+    color: #000000;
     max-width: 420px;
     z-index: 10;
 }
