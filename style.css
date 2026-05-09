@@ -32,14 +32,13 @@ header, section {
     height: 520px;
     background-image:
         linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0)),
-        url('hero-image.jpg');
+        url('OGAM-MAIN.jpg'); /* must match your actual file name */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
 }
 
-/* TEXT OVERLAY */
 .hero-overlay {
     position: absolute;
     top: 50%;
@@ -47,9 +46,9 @@ header, section {
     transform: translateY(-50%);
     color: #fff;
     max-width: 420px;
+    z-index: 10;
 }
 
-/* HERO TEXT */
 .hero-overlay h1 {
     font-size: 42px;
     font-weight: 600;
@@ -64,7 +63,6 @@ header, section {
     margin-bottom: 20px;
 }
 
-/* HERO BUTTON */
 .hero-btn {
     background: #fff;
     color: #000;
