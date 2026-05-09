@@ -225,3 +225,18 @@ p {
     margin-top: 40px;
 }
 
+
+.about-hero-image {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 20px;
+}
+
+.about-hero-image img {
+    width: 220px;          /* adjust size if needed */
+    height: 220px;
+    border-radius: 50%;    /* makes it a perfect circle */
+    object-fit: cover;     /* crops the image nicely */
+    border: 2px solid #000;
+}
+
