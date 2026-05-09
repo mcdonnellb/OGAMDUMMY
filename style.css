@@ -48,9 +48,11 @@ header, section {
 
 .hero-image img {
     width: 100%;
-    max-width: 480px;
+    max-width: 460px;
+    height: auto;
     border: 1px solid #000;
     object-fit: cover;
+    border-radius: 4px; /* optional */
 }
 
 .hero-image .placeholder {
