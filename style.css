@@ -158,3 +158,35 @@ p {
     opacity: 0.6;
 }
 
+
+@media (max-width: 600px) {
+
+    .hero-banner {
+        height: 380px;
+        background-position: center;
+    }
+
+    .hero-overlay {
+        left: 20px;
+        top: 40%;
+        transform: translateY(-40%);
+        max-width: 260px;
+    }
+
+    .hero-overlay h1 {
+        font-size: 26px;
+        line-height: 1.15;
+        margin-bottom: 8px;
+    }
+
+    .hero-overlay p {
+        font-size: 14px;
+        margin-bottom: 14px;
+    }
+
+    .hero-btn {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+}
+
