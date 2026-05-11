@@ -261,7 +261,7 @@ p {
 /* Stockist Section */
 .stockist-section {
     max-width: 1100px;
-    margin: 0 auto 100px;
+    margin: 0 auto 120px;
     padding: 0 40px;
     text-align: center;
 }
@@ -269,14 +269,15 @@ p {
 .stockist-heading {
     font-size: 1.8rem;
     font-weight: 600;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
+
 
 /* Grid */
 .stockist-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 50px;
     align-items: center;
     justify-items: center;
 }
@@ -284,20 +285,23 @@ p {
 /* Logo containers */
 .stockist-item {
     width: 100%;
-    height: 120px;
+    height: 160px; /* increased height */
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
-    border-radius: 8px;
+    padding: 30px; /* more breathing room */
+    border-radius: 10px;
     background: #fafafa;
-    border: 1px solid #eee;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.04); /* subtle premium shadow */
 }
 
 /* Logo images */
 .stockist-item img {
-    max-width: 140px;
-    max-height: 80px;
+    max-width: 150px;
+    max-height: 100px;
     object-fit: contain;
+    filter: grayscale(0%); /* optional: set to 100% for muted look */
 }
+
 
