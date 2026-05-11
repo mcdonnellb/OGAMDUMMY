@@ -474,3 +474,29 @@ p {
     text-align: center;
     margin-bottom: 50px;
 }
+
+/* Reduce image sizes for a more premium look */
+.products-row .product-card img {
+    max-height: 160px;
+    width: auto;
+}
+
+/* Give more breathing room between rows */
+.products-row {
+    margin-bottom: 80px;
+}
+
+/* Add extra spacing before the Merch heading */
+.products-section h2.products-heading + .products-row {
+    margin-top: 20px;
+}
+
+/* Optional: make the tote slightly smaller than sauces */
+.merch-row .product-card img {
+    max-height: 140px;
+}
+
+.product-card:hover img {
+    transform: scale(1.03);
+    transition: 0.3s ease;
+}
