@@ -345,7 +345,10 @@ p {
 .founder-section h2,
 .ogam-story h2 {
     max-width: 620px;
-    margin: 0 auto 20px;
+    text-transform:uppercase;
+    letter-spacing: 0.06em;
+    font-size: 22px;
+    margin: 50px auto 20px;
     text-align: center;
     letter-spacing: 0.03em;
     font-weight: 600;
@@ -355,4 +358,9 @@ p {
 .ogam-story h2 {
     margin-top: 40px;
     margin-bottom: 20px;
+}
+
+.founder-section h2 span,
+.ogam-story h2 span {
+    font-weight: 300;
 }
