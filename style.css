@@ -364,3 +364,9 @@ p {
 .ogam-story h2 span {
     font-weight: 300;
 }
+
+.home-section .inner {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 40px;
+}
