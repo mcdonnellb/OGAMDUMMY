@@ -425,4 +425,11 @@ p {
     letter-spacing: 0.02em;
 }
 
+.products-grid .product-card {
+    padding-bottom: 40px;
+}
 
+.products-grid .product-card {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    border-radius: 12px;
+}
