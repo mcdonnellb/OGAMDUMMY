@@ -340,3 +340,19 @@ p {
     border-radius: 12px;        /* premium rounded edges */
     max-width: 900px;           /* narrower = more luxury */
     margin: 60px auto 120px;    /* centre it beautifully */
+}
+
+.founder-section h2,
+.ogam-story h2 {
+    max-width: 620px;
+    margin: 0 auto 20px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-weight: 600;
+}
+
+.founder-section h2,
+.ogam-story h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
