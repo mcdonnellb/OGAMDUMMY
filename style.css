@@ -225,6 +225,7 @@ p {
 .founder-section p,
 .ogam-story p {
     max-width: 750px;
+    text-align:center;
 }
 
 .footer {
