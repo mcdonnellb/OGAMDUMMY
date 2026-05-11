@@ -334,3 +334,9 @@ p {
     margin-top: 40px;
 }
 
+.page-container {
+    background: #fafafa;        /* soft luxury background */
+    padding: 80px 40px;         /* generous editorial spacing */
+    border-radius: 12px;        /* premium rounded edges */
+    max-width: 900px;           /* narrower = more luxury */
+    margin: 60px auto 120px;    /* centre it beautifully */
