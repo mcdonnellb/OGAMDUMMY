@@ -1014,7 +1014,7 @@ p {
 
 .gallery-subheading {
     text-transform: uppercase;
-    tex-align: center; 
+    text-align: center; 
     font-size: 1.1rem;
     color: #555;
     letter-spacing: 0.5px;
