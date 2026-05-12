@@ -27,6 +27,46 @@ header, section {
    
 }
 
+.hero-img {
+    filter: brightness(60%);
+}
+
+.hero-overlay h1 {
+    font-size: 64px;
+    line-height: 1.05;
+}
+
+.awards-section {
+    background: #fafafa;
+    padding: 80px 60px;
+    border-radius: 16px;
+}
+
+.teaser-item img {
+    max-height: 300px;
+}
+
+
+
+section {
+    margin-bottom: 120px;
+}
+
+
+.cta-section {
+    background: linear-gradient(180deg, #fafafa, #f0f0f0);
+    padding: 120px 40px;
+    border-radius: 16px;
+}
+
+
+.footer {
+    padding: 40px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+
 .founder-intro {
     padding: 80px 40px;
     max-width: 1200px;
