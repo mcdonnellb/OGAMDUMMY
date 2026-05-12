@@ -179,6 +179,7 @@ button:hover,
 /* Keep cards narrow and tidy */
 .recipe-card {
     max-width: 260px;
+    max-heigth: 330px;
     text-align: center; 
     heigth: 240px;
     object-fit: cover; 
