@@ -562,11 +562,14 @@ p {
     max-width: 700px;
     margin: 0 auto;
     text-align: center;
-    text-tranform: Upper;
+    text-transform: uppercase;
     font-family: 'Inter', sans-serif;
-    background: #ffffff;
     color: #000000;
     line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    opacity: 0.85;
+
 }
 
 .founder-section p {
