@@ -518,31 +518,31 @@ p {
 }
 
 .recipes-grid {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 40px;
-    margin-top: 60px;
-    flex-wrap: wrap;
+  
+  
 }
 
 .recipe-card {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     max-width: 260px;
 }
 
 .recipe-card img {
     width: 100%;
-    height: auto;
     border-radius: 12px;
     margin-bottom: 20px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
 }
 
 .recipe-card h3 {
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 0.02em;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .recipe-btn {
@@ -555,6 +555,8 @@ p {
     font-size: 14px;
     letter-spacing: 0.03em;
     transition: 0.3s ease;
+    margin-top: auto;
+    align-self: center;
 }
 
 .recipe-btn:hover {
