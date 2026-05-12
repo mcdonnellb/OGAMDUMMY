@@ -158,6 +158,7 @@ button:hover,
 /* Wrap the whole recipes area in a centered column */
 .recipes-section {
     max-width: 900px;
+    max-heigth: 260px;
     margin: 0 auto 80px;
     padding: 0 40px;
     text-align: center;
