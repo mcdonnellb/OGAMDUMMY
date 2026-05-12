@@ -47,6 +47,38 @@ a.btn:hover,
 }
 
 
+a,
+button,
+.hero-btn,
+.recipe-btn,
+.product-card img {
+    transition: transform .3s ease, background .3s ease, opacity .3s ease;
+}
+
+a:hover,
+button:hover,
+.hero-btn:hover,
+.recipe-btn:hover {
+    transform: scale(1.04);
+    opacity: 0.9;
+}
+
+.cta-section {
+    text-align: center;
+}
+
+.cta-section .hero-btn,
+.cta-section .cta-btn {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+
+.product-card:hover img {
+    transform: scale(1.05);
+}
+
+
 .hero {
     position: relative;
     height: 600px;
@@ -86,6 +118,8 @@ a.btn:hover,
     height: 260px;
     object-fit: cover;
     border-radius: 12px;
+    opacity:0;
+    animation: fadeInUp .8s ease forwards;
   
 }
 
@@ -97,6 +131,10 @@ a.btn:hover,
     text-align: center;
 }
 
+
+.lifestyle-grid img:nth-child(2) { animation-delay: .1s; }
+.lifestyle-grid img:nth-child(3) { animation-delay: .2s; }
+.lifestyle-grid img:nth-child(4) { animation-delay: .3s; }
 /* Center the grid inside that column */
 .recipes-grid {
     display: grid;
@@ -297,6 +335,7 @@ section {
 
 .hero-overlay {
     position: absolute;
+    line-height: 1.05;
     top: 45%;
     left: 60px;
     transform: translateY(-45%);
