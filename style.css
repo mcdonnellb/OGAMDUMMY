@@ -349,9 +349,16 @@ p {
     background: #fafafa;        /* soft luxury background */
     padding: 80px 40px;         /* generous editorial spacing */
     border-radius: 12px;        /* premium rounded edges */
-    max-width: 900px;           /* narrower = more luxury */
-    margin: 60px auto 120px;    /* centre it beautifully */
+    max-width: 1200px;           /* narrower = more luxury */
+    margin: 0px auto 120px;    /* centre it beautifully */
 }
+
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
 
 .founder-section h2,
 .ogam-story h2 {
