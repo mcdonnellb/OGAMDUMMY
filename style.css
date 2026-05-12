@@ -69,6 +69,28 @@ a {
   
 }
 
+/* Wrap the whole recipes area in a centered column */
+.recipes-section {
+    max-width: 900px;
+    margin: 0 auto 80px;
+    padding: 0 40px;
+    text-align: center;
+}
+
+/* Center the grid inside that column */
+.recipes-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    justify-items: center;      /* centers the cards in each column */
+    margin-top: 40px;
+}
+
+/* Keep cards narrow and tidy */
+.recipe-card {
+    max-width: 260px;
+    text-align: left;           /* or center if you prefer */
+}
 
 .product-teaser-grid {
     display: grid;
