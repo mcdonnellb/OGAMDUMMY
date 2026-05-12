@@ -965,12 +965,15 @@ p {
     font-size: 2.4rem;
     font-weight: 600;
     margin-bottom: 10px;
-    letter-spacing: -0.5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 .gallery-subheading {
+    text-transform: uppercase;
     font-size: 1.1rem;
     color: #555;
+    letter-spacing: 0.5px;
     margin-bottom: 40px;
 }
 
