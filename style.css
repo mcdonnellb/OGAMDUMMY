@@ -428,8 +428,7 @@ p {
     text-align: center;
 }
 
-.founder-section p,
-.ogam-story {
+.founder-section p, {
     max-width: 750px;
     margin: 0 auto 80px;
     text-align: center;
