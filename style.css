@@ -20,12 +20,12 @@ a {
 }
 
 /* LAYOUT */
-header, section {
+.page-section {
     padding: 60px 40px;
     max-width: 1100px;
     margin: 0 auto;
-   
 }
+
 
 .hero {
     position: relative;
@@ -86,11 +86,7 @@ section {
 }
 
 
-.footer {
-    padding: 40px 0;
-    font-size: 14px;
-    color: #666;
-}
+
 
 
 .founder-intro {
@@ -104,14 +100,6 @@ section {
     display: flex;
     align-items: center;
     gap: 60px;
-}
-
-.founder-photo {
-    width: 380px;
-    height: 380px;
-    object-fit: cover;
-    border-radius: 12px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
 }
 
 .founder-text h2 {
