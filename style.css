@@ -74,6 +74,26 @@ a {
 }
 
 
+.product-teaser-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    align-items: start;
+    justify-items: center;
+}
+
+.teaser-item img {
+    max-height: 340px;
+}
+
+
+@media (max-width: 700px) {
+    .product-teaser-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
 section {
     margin-bottom: 120px;
 }
