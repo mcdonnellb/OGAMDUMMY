@@ -179,7 +179,10 @@ button:hover,
 /* Keep cards narrow and tidy */
 .recipe-card {
     max-width: 260px;
-    text-align: center;          
+    text-align: center; 
+    heigth: 240px;
+    object-fit: cover; 
+    border-radium: 12px; 
 }
 
 .recipe-card h3 {
