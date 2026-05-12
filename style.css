@@ -287,6 +287,15 @@ p {
     letter-spacing: 0.06em;
 }
 
+.stockist-item img {
+    transition: transform .4s ease;
+}
+
+.stockist-item:hover img {
+    transform: scale(1.08);
+}
+
+
 
 /* Grid */
 .stockist-grid {
