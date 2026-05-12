@@ -415,6 +415,13 @@ p {
     text-align:center;
 }
 
+.ogam-story {
+    max-width: 750px;
+    margin: 0 auto 80px;
+    text-align: center;
+}
+
+
 .footer {
     padding: 40px;
     text-align: center;
