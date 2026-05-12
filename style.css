@@ -562,6 +562,11 @@ p {
     max-width: 700px;
     margin: 0 auto;
     text-align: center;
+    text-tranform: Upper;
+    font-family: 'Inter', sans-serif;
+    background: #ffffff;
+    color: #000000;
+    line-height: 1.5;
 }
 
 .founder-section p {
@@ -1006,6 +1011,7 @@ p {
 
 .gallery-subheading {
     text-transform: uppercase;
+    tex-align: center; 
     font-size: 1.1rem;
     color: #555;
     letter-spacing: 0.5px;
