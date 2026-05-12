@@ -158,12 +158,13 @@ section {
     align-items: center;
     gap: 50px;
     flex-wrap: wrap;
+    margin-top: 40px;
 }
 
 .seen-logos img {
-    max-height: 70px;
+    max-height: 60px;
     object-fit: contain;
-    opacity: 0.9;
+    opacity: 0.85;
     transition: 0.3s ease;
 }
 
