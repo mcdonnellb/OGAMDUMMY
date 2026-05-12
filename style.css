@@ -155,12 +155,14 @@ section {
 .seen-logos {
     display: flex;
     justify-content: center;
-    gap: 60px;
+    align-items: center;
+    gap: 50px;
     flex-wrap: wrap;
 }
 
 .seen-logos img {
-    max-height: 90px;
+    max-height: 70px;
+    object-fit: contain;
     opacity: 0.9;
     transition: 0.3s ease;
 }
