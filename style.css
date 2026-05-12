@@ -589,16 +589,32 @@ p {
 }
 
 
-.founder-section,
-.ogam-story {
-    margin-top: 40px;
+.founder-section p {
+    max-width: 750px;
+    margin: 0 auto 20px;
+    text-align: center;
 }
+
+.ogam-story {
+    max-width: 750px;
+    margin: 0 auto 80px;
+    text-align: center;
+}
+
+.ogam-story p {
+    max-width: 750px;
+    margin: 0 auto 20px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+
 
 .page-container {
     background: #fafafa;        /* soft luxury background */
     padding: 80px 40px;         /* generous editorial spacing */
     border-radius: 12px;        /* premium rounded edges */
-    max-width: 1200px;           /* narrower = more luxury */
+    max-width: 1000px;           /* narrower = more luxury */
     margin: 0px auto 120px;    /* centre it beautifully */
 }
 
@@ -645,6 +661,11 @@ p {
     letter-spacing: 0.02em;
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+.about-images {
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .products-heading {
