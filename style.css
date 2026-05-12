@@ -46,6 +46,18 @@ header, section {
     max-height: 300px;
 }
 
+.lifestyle-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.lifestyle-grid img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 12px;
+}
 
 
 section {
