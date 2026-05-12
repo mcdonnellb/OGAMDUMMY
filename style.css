@@ -112,6 +112,12 @@ button:hover,
     line-height: 1.05;
 }
 
+.hero-overlay .ogam-btn {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+
 
 
 .teaser-item img {
