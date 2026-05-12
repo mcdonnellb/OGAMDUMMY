@@ -12,6 +12,12 @@ body {
     color: #000000;
     line-height: 1.5;
 }
+
+/* GLOBAL IMAGE STYLE */
+img {
+    border-radius: 12px;
+}
+
 /* GLOBAL HOVER EFFECT FOR ALL INTERACTIVE ELEMENTS */
 .hoverable {
     transition: transform .3s ease, opacity .3s ease;
