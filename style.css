@@ -668,6 +668,17 @@ p {
     margin: 0 auto;
 }
 
+.about-block {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.about-block.reverse {
+    flex-direction: row-reverse;
+}
+
 .products-heading {
     text-transform: uppercase;
     letter-spacing: 0.06em;
