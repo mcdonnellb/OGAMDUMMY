@@ -89,8 +89,16 @@ a {
 /* Keep cards narrow and tidy */
 .recipe-card {
     max-width: 260px;
-    text-align: left;           /* or center if you prefer */
+    text-align: center;          
 }
+
+.recipe-card h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
 
 .product-teaser-grid {
     display: grid;
@@ -770,6 +778,8 @@ p {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
+    justify-items: center;
+
   
   
 }
@@ -779,6 +789,7 @@ p {
     flex-direction: column;
     justify-content: space-between;
     max-width: 260px;
+    text-align: center;
 }
 
 .recipe-card img {
@@ -792,6 +803,7 @@ p {
     font-weight: 500;
     letter-spacing: 0.02em;
     margin-bottom: 20px;
+      text-transform: uppercase;
 }
 
 .recipe-btn {
@@ -804,8 +816,8 @@ p {
     font-size: 14px;
     letter-spacing: 0.03em;
     transition: 0.3s ease;
-    margin-top: auto;
     align-self: center;
+    margin-top:10px;
 }
 
 .recipe-btn:hover {
