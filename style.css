@@ -1105,7 +1105,7 @@ p {
 }
 
 .recipe-card img {
-    width: 100%;
+    width: 200px;
     height: 260px;
     object-fix: cover;
     border-radius: 12px;
