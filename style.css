@@ -256,6 +256,13 @@ button:hover,
     text-align: center;
 }
 
+.gallery-item h2 {
+    font-size: 16px;
+    margin-top: 12px;
+    text-transform: none;
+    letter-spacing: 0.02em;
+}
+
 
 .product-teaser-grid {
     display: grid;
