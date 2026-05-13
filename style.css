@@ -226,13 +226,15 @@ button:hover,
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
     justify-items: center;      /* centers the cards in each column */
-    margin-top: 40px;
+   /* margin-top: 40px;*/
 }
 
 /* Keep cards narrow and tidy */
 .recipe-card {
     max-width: 260px;
-    max-height: 330px;
+    min-height: 420px;
+    display: flex;
+    flex-direction: column;
     text-align: center; 
     object-fit: cover; 
     border-radium: 12px; 
