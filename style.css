@@ -17,10 +17,7 @@ body {
     overflow-x: visible;
 }
 
-.events-carousel {
-    width: 100%;
-    overflow-x: auto;
-}
+
 
 
 .socials {
@@ -296,6 +293,11 @@ button:hover,
     padding: 20px 0;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none; /* Firefox */
+  margin-left: -40px;
+    margin-right: -40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
 }
 
 .events-carousel::-webkit-scrollbar {
@@ -305,6 +307,7 @@ button:hover,
 .event-slide {
     flex: 0 0 85%;
     scroll-snap-align: center;
+    min-width: 85%;
     border-radius: 12px;
     overflow: hidden;
     background: #fafafa;
