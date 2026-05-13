@@ -277,6 +277,47 @@ button:hover,
 }
 
 
+/* Minimal Apple-style carousel */
+.events-carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 20px;
+    padding: 20px 0;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Firefox */
+}
+
+.events-carousel::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
+}
+
+.event-slide {
+    flex: 0 0 85%;
+    scroll-snap-align: center;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fafafa;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.event-slide img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.event-slide h3 {
+    font-size: 16px;
+    margin-top: 12px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+
+
 @media (max-width: 700px) {
     .product-teaser-grid {
         grid-template-columns: 1fr;
