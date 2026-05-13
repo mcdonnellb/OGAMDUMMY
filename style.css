@@ -41,6 +41,29 @@ body {
   text-decoration: underline;
 }
 
+.footer-socials {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 16px;
+    padding: 0;
+}
+
+.footer-socials a {
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    opacity: 0.85;
+    transition: 0.3s ease;
+}
+
+.footer-socials a:hover {
+    opacity: 1;
+}
+
+
 
 /* GLOBAL IMAGE STYLE */
 img {
