@@ -31,6 +31,15 @@ body {
   flex-wrap: wrap;
 }
 
+.footer {
+    padding: 40px;
+    text-align: center;
+    font-size: 13px;
+    border-top: 1px solid #e5e5e5;
+    margin-top: 40px;
+}
+
+
 .social-links a {
   text-decoration: none;
   font-weight: 500;
