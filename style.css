@@ -67,7 +67,12 @@ body {
 }
 
 .user-gallery p {
+    max-width:none;
     margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #444;
+    text-transofrm: upper;
 }
 
 .gallery-grid {
@@ -1112,7 +1117,7 @@ p {
 .recipe-card img {
     width: 200px;
     height: 260px;
-    object-fix: cover;
+    object-fit: cover;
     border-radius: 12px;
     margin-bottom: 20px;
 }
