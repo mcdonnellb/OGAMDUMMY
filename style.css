@@ -1227,7 +1227,7 @@ p {
 
 
 /* MOBILE IMAGE FIXES */
-/*@media (max-width: 600px) { */
+@media (max-width: 600px) { 
 
     /* Universal responsive images */
     img {
