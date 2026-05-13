@@ -13,6 +13,16 @@ body {
     line-height: 1.5;
 }
 
+.events-section {
+    overflow-x: visible;
+}
+
+.events-carousel {
+    width: 100%;
+    overflow-x: auto;
+}
+
+
 .socials {
   padding: 2rem 0;
   border-top: 1px solid #eee;
