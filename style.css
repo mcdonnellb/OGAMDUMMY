@@ -305,9 +305,8 @@ button:hover,
     
 }
 
-.events-carousel::-webkit-scrollbar {
+/*.events-carousel::-webkit-scrollbar {
     display: none; /* Chrome/Safari */
-}
 
 .event-slide {
     flex: 0 0 85%;
