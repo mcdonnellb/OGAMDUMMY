@@ -1215,6 +1215,19 @@ p {
     text-decoration: none;
 }
 
+/* Fix OGAM Community Creations typography */
+.user-gallery p,
+.user-gallery h2,
+.user-gallery .gallery-cta {
+    text-transform: none;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    opacity: 1;
+    max-width: none;
+    margin: 0 auto 16px;
+}
+
+
 
 /* EVENTS GRID – EXACT clone of stockists grid */
 /*.events-grid {
