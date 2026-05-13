@@ -1165,6 +1165,11 @@ p {
     text-align: center;
 }
 
+.gallery-cta a {
+    font-weight: 600;
+    text-decoration: none;
+}
+
 
 /* EVENTS GRID – EXACT clone of stockists grid */
 .events-grid {
