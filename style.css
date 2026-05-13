@@ -1167,3 +1167,36 @@ p {
         grid-template-columns: 1fr;
     }
 }
+
+
+/* MOBILE IMAGE FIXES */
+@media (max-width: 600px) {
+
+    /* Universal responsive images */
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Founder photo */
+    .founder-photo img {
+        width: 100%;
+        height: auto;
+        max-width: 260px;
+        margin: 0 auto;
+    }
+
+    /* Lifestyle images */
+    .lifestyle-grid img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    /* Product teaser images */
+    .teaser-item img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
