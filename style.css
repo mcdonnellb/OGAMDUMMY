@@ -55,6 +55,21 @@ body {
     justify-content: center;
 }
 
+
+.user-gallery {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.user-gallery p {
+    margin-bottom: 20px;
+}
+
+.gallery-grid {
+    margin-top: 40px; /* space between text + images */
+    gap: 30px;        /* more space between the images themselves */
+}
+
 .footer p {
     margin-top: 12px; /* small breathing space below socials */
     text-align: center;
